@@ -1,0 +1,11 @@
+---
+applications:
+  - name: llama32-chatbot
+    random-route: true
+    memory: 8G
+    disk_quota: 8G
+    instances: 1
+    buildpacks:
+      - python_buildpack
+    command: ./ollama_install.sh && python server.py
+    timeout: 180

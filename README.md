@@ -12,10 +12,10 @@ Features:
 
 ##### Deployment Instructions: 
 
-	1.	Clone this repository.
-	2.	Make sure you have the Cloud Foundry CLI installed and logged in.
-	3.	Verify the 'manifest.yaml' memory, disk quota, and timeout settings suit your environment.
-	4.	Push the app to Cloud Foundry:
+- Clone this repository.
+- Make sure you have the Cloud Foundry CLI installed and logged in.
+- Verify the 'manifest.yaml' memory, disk quota, and timeout settings suit your environment.
+- Push the app to Cloud Foundry:
 
 ```
 cf push your-app-name

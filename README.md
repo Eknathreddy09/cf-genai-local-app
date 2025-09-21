@@ -18,5 +18,5 @@ Features:
 	4.	Push the app to Cloud Foundry:
 
 ```
- cf push your-app-name
+cf push your-app-name
 ```
